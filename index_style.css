@@ -1,0 +1,336 @@
+/* ESTILO DE PÁGINAS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODYS */
+
+.index-body {
+    background-image: url(images/ginger_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.adoptions-body {
+    background-image: url(images/calico_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.donate-body {
+    background-image: url(images/white_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-body {
+    background-image: url(images/black_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.foster-body {
+    background-image: url(images/grey_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.spay-neuter-body {
+    background-image: url(images/tabby_ginger_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+.to-do-body {
+    background-image: url(images/tabby_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* IMAGES */
+
+/* logo */
+.logo-position {
+    width: 15% ;
+    margin: auto;
+    display: block;
+}
+
+/* imagenes */
+.banner-style {
+    margin: 0;
+    width: 100% ;
+    display: block;
+    padding: 0px;
+    }
+
+.img-style {
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+}
+
+.button-image {
+    padding: 0 0 0 410px;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* TEXTS */
+
+/* estilos generales */
+.general-style {
+    color: #dbacac;   
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    margin: 50px 150px 0 150px;
+    border: 1px solid white;
+}
+
+/* estilo de titulos */
+.title-style {
+    color: #dbacac;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 20px;    
+}
+
+.subtitle-style {
+    color: #dbacac;
+    font-size: 20px;  
+    text-align: justify;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 20px 0 20px 0;     
+}
+
+/* estilo de parrafos*/
+.paragraph-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: left;
+    background-color: white;
+    /* margin: 0 150px 0 150px; */
+    padding: 10px 50px;
+}
+
+.descriptions-style {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #dbacac;
+    text-align: center;
+    background-color: white;
+    margin: 20px 100px 20px 100px;
+    padding: 0 10px;
+}
+
+/* estilo de listas */
+.list-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+    }
+
+/* NAVIGATION */
+
+/* hipervinculos */
+.link-style {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+/* listas con hipervinculos */
+.list-link-style {
+    color: white;
+    text-align: justify;
+    display: inline;
+    margin: 0 50px;
+}
+
+.list-link-style:hover{
+   text-decoration: underline;
+}
+
+/* hipervinculos redes sociales */
+.social-media-style {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #dbacac;
+ }
+
+ /* hipervinculos externos */
+ .link-externo-style {
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color: #7d5a5a;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ /* BUTTONS */
+
+ /* boton general */
+ .button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+}
+
+.button-style:hover {
+    background-color: #7d5a5a;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: underline;
+}
+
+/* boton seccion adopciones */
+.adoption-button-style {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 20%;
+    margin: 10px 250px 10px 250px;
+}
+
+.adoption-button-style:hover {
+    background-color: #7d5a5a;
+}
+
+/* hipervinculo del boton */
+.button-link-style {
+    text-decoration: none;
+    color: #7d5a5a;
+}
+
+.button-link-style:hover {
+    color: white;
+}
+
+/* OTROS */
+
+/* fondo general */
+.solid-style {
+    color: #dbacac;
+    text-align: justify;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    border: 1px solid white;
+    padding: 0 20px 0 20px;
+}
+
+.footer {
+    text-align: left;
+    background-color: black;
+    margin-top: 30px;
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+}
+
+.footer-paragraph {
+    margin-left: 50px;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.social-media {
+    margin-left: 50px;    
+}
+
+.footer-link {
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #dbacac;
+    font-size: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* containers */
+.menu-container {
+    background-color: #7d5a5a;
+    margin: 20px 0;
+}
+
+.button-image-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-container {
+    text-align: left;
+    background-color: black;
+    width: 100%;
+    color: #dbacac;
+    font-size: 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.adoption-button-container {
+    display: flex;
+    justify-content: center;
+}
